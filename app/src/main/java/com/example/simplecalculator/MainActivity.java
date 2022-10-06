@@ -74,18 +74,26 @@ public class MainActivity extends AppCompatActivity {
     }
     public void btnPlusClick (View view){
         EditText etext = findViewById(R.id.resultEdit);
+        num1 = Double.parseDouble(etext.toString());
+        optr = '+';
         etext.setText(etext.getText()+"+");
     }
     public void btnMinusClick (View view){
         EditText etext = findViewById(R.id.resultEdit);
+        num1 = Double.parseDouble(etext.toString());
+        optr = '-';
         etext.setText(etext.getText()+"-");
     }
     public void btnMultiplyClick (View view){
         EditText etext = findViewById(R.id.resultEdit);
+        num1 = Double.parseDouble(etext.toString());
+        optr = '*';
         etext.setText(etext.getText()+"*");
     }
     public void btnDivideClick (View view){
         EditText etext = findViewById(R.id.resultEdit);
+        num1 = Double.parseDouble(etext.toString());
+        optr = '/';
         etext.setText(etext.getText()+"/");
     }
     public void btnEqualClick (View view){
