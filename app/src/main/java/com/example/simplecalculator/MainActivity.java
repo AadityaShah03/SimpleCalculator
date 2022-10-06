@@ -97,6 +97,22 @@ public class MainActivity extends AppCompatActivity {
         etext.setText(etext.getText()+"/");
     }
     public void btnEqualClick (View view){
-
+        EditText etext = findViewById(R.id.resultEdit);
+        num2 = Double.parseDouble(etext.getText().toString());
+        if(optr=='+'){
+            etext.setText(Double.toString(num1+num2));
+        }
+        else if(optr=='-') {
+            etext.setText(Double.toString(num1 - num2));
+        }
+        else if(optr=='*'){
+            etext.setText(Double.toString(num1*num2));
+        }
+        else if(optr=='/'){
+            etext.setText(Double.toString(num1/num2));
+        }
+        else{
+            etext.setText(R.string.error_msg);
+        }
     }
 }
