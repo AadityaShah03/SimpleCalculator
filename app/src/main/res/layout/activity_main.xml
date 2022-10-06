@@ -31,6 +31,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn01Click"
                 android:text="@string/_1"
                 android:textSize="48sp" />
 
@@ -41,6 +42,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn02Click"
                 android:text="@string/_2"
                 android:textSize="48sp" />
 
@@ -51,6 +53,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn03Click"
                 android:text="@string/_3"
                 android:textSize="48sp" />
 
@@ -61,6 +64,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#FF9800"
+                android:onClick="btnPlusClick"
                 android:text="@string/plus"
                 android:textSize="48sp" />
         </LinearLayout>
@@ -78,6 +82,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn04Click"
                 android:text="@string/_4"
                 android:textSize="48sp" />
 
@@ -88,6 +93,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn05Click"
                 android:text="@string/_5"
                 android:textSize="48sp" />
 
@@ -98,6 +104,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn06Click"
                 android:text="@string/_6"
                 android:textSize="48sp" />
 
@@ -108,6 +115,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#FF9800"
+                android:onClick="btnMinusClick"
                 android:text="@string/dash"
                 android:textSize="48sp" />
         </LinearLayout>
@@ -125,6 +133,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn07Click"
                 android:text="@string/_7"
                 android:textSize="48sp" />
 
@@ -135,6 +144,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn08Click"
                 android:text="@string/_8"
                 android:textSize="48sp" />
 
@@ -145,6 +155,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn09Click"
                 android:text="@string/_9"
                 android:textSize="48sp" />
 
@@ -155,6 +166,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#FF9800"
+                android:onClick="btnMultiplyClick"
                 android:text="@string/star"
                 android:textSize="48sp" />
         </LinearLayout>
@@ -172,6 +184,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#FF9800"
+                android:onClick="btnDecimalClick"
                 android:text="@string/dot"
                 android:textSize="48sp" />
 
@@ -182,6 +195,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#00BCD4"
+                android:onClick="btn0Click"
                 android:text="@string/_0"
                 android:textSize="48sp" />
 
@@ -192,6 +206,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#FF9800"
+                android:onClick="btnClearClick"
                 android:text="@string/ce"
                 android:textSize="48sp" />
 
@@ -202,6 +217,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#FF9800"
+                android:onClick="btnDivideClick"
                 android:text="@string/slash"
                 android:textSize="48sp" />
         </LinearLayout>
@@ -218,6 +234,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="btnEqualClick"
                 android:text="@string/equal"
                 android:textSize="48sp" />
         </LinearLayout>
