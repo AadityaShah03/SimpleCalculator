@@ -26,35 +26,39 @@
 
             <Button
                 android:id="@+id/btn01"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_1"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btn02"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_2"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btn03"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_3"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btnPlus"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/plus"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -65,35 +69,39 @@
 
             <Button
                 android:id="@+id/btn04"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_4"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btn05"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_5"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btn06"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_6"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btnMinus"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/dash"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -104,35 +112,39 @@
 
             <Button
                 android:id="@+id/btn07"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_7"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btn08"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_8"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btn09"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_9"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btnMultiply"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/star"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -143,35 +155,39 @@
 
             <Button
                 android:id="@+id/btnDecimal"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/dot"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btn0"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/_0"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btnClear"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/ce"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/btnDivide"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:text="@string/slash"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="48sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -186,7 +202,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/equal" />
+                android:text="@string/equal"
+                android:textSize="48sp" />
         </LinearLayout>
 
     </LinearLayout>
