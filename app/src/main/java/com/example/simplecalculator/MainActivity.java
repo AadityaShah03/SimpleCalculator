@@ -20,84 +20,87 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btn01Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText) findViewById(R.id.resultEdit);
         etext.setText(etext.getText()+"1");
     }
 
     public void btn02Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText() + "2");
     }
 
     public void btn03Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText()+"3");
     }
 
     public void btn04Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText()+"4");
     }
 
     public void btn05Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText()+"5");
     }
 
     public void btn06Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText() + "6");
     }
     public void btn07Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText()+"7");
     }
     public void btn08Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText()+"8");
     }
     public void btn09Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText()+"9");
     }
     public void btn0Click (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText()+"0");
     }
     public void btnDecimalClick (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText(etext.getText()+".");
     }
     public void btnClearClick (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         etext.setText("");
+        num1 = 0;
+        num2 = 0;
+        optr = ' ';
     }
     public void btnPlusClick (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         num1 = Double.parseDouble(etext.toString());
         optr = '+';
         etext.setText(etext.getText()+"+");
     }
     public void btnMinusClick (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         num1 = Double.parseDouble(etext.toString());
         optr = '-';
         etext.setText(etext.getText()+"-");
     }
     public void btnMultiplyClick (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         num1 = Double.parseDouble(etext.toString());
         optr = '*';
         etext.setText(etext.getText()+"*");
     }
     public void btnDivideClick (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         num1 = Double.parseDouble(etext.toString());
         optr = '/';
         etext.setText(etext.getText()+"/");
     }
     public void btnEqualClick (View view){
-        EditText etext = findViewById(R.id.resultEdit);
+        EditText etext = (EditText)findViewById(R.id.resultEdit);
         num2 = Double.parseDouble(etext.getText().toString());
         if(optr=='+'){
             etext.setText(Double.toString(num1+num2));
