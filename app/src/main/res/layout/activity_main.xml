@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/choppa"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="409dp"
         android:layout_height="589dp"
-        android:layout_marginBottom="1dp"
-        android:layout_marginEnd="1dp"
         android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn01Click"
                 android:text="@string/_1"
                 android:textSize="48sp" />
@@ -41,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn02Click"
                 android:text="@string/_2"
                 android:textSize="48sp" />
@@ -52,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn03Click"
                 android:text="@string/_3"
                 android:textSize="48sp" />
@@ -63,7 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#FF9800"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btnPlusClick"
                 android:text="@string/plus"
                 android:textSize="48sp" />
@@ -81,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn04Click"
                 android:text="@string/_4"
                 android:textSize="48sp" />
@@ -92,7 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn05Click"
                 android:text="@string/_5"
                 android:textSize="48sp" />
@@ -103,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn06Click"
                 android:text="@string/_6"
                 android:textSize="48sp" />
@@ -114,7 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#FF9800"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btnMinusClick"
                 android:text="@string/dash"
                 android:textSize="48sp" />
@@ -132,7 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn07Click"
                 android:text="@string/_7"
                 android:textSize="48sp" />
@@ -143,7 +144,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn08Click"
                 android:text="@string/_8"
                 android:textSize="48sp" />
@@ -154,7 +155,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn09Click"
                 android:text="@string/_9"
                 android:textSize="48sp" />
@@ -165,7 +166,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#FF9800"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btnMultiplyClick"
                 android:text="@string/star"
                 android:textSize="48sp" />
@@ -183,7 +184,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#FF9800"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btnDecimalClick"
                 android:text="@string/dot"
                 android:textSize="48sp" />
@@ -194,7 +195,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btn0Click"
                 android:text="@string/_0"
                 android:textSize="48sp" />
@@ -205,7 +206,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#FF9800"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btnClearClick"
                 android:text="@string/ce"
                 android:textSize="48sp" />
@@ -216,7 +217,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#FF9800"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="btnDivideClick"
                 android:text="@string/slash"
                 android:textSize="48sp" />
@@ -247,11 +248,11 @@
         android:layout_height="110dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
